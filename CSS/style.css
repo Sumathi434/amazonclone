@@ -592,7 +592,7 @@ footer {
     }
 
     .header-boxes .box-col:first-child {
-        margin-top: 100px;
+        margin-top: 200px;
     }
 
     .nav-bottom {
@@ -648,8 +648,3 @@ footer {
     }
 }
 
-@media only screen and (max-width: 360px) {
-    .header-boxes .box-col:first-child {
-        margin-top: 180px;
-    }
-}
