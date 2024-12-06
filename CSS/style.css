@@ -90,6 +90,7 @@ body {
     border-top-left-radius: 10px;
     height: 100%;
 }
+
 .dropdown-icon:hover {
     background-color: rgb(202, 196, 196);
     transition: background-color 0.3s;
@@ -273,7 +274,8 @@ body {
     color: #fff;
     padding: 5vh 1vw;
     font-size: 24px;
-    position: absolute; /* Position it relative to the parent */
+    position: absolute;
+    /* Position it relative to the parent */
     z-index: 1;
     top: 8%;
 }
@@ -494,11 +496,12 @@ footer {
     .header-boxes,
     .headerBox {
         display: grid;
-        grid-template-columns: repeat(4, 1fr); /* Ensures equal spacing */
+        grid-template-columns: repeat(4, 1fr);
+        /* Ensures equal spacing */
         gap: 16px;
-       align-items: stretch;
+        align-items: stretch;
     }
-    
+
     .box-col {
         min-width: 48%;
         padding: 10px;
@@ -530,27 +533,33 @@ footer {
     .header-boxes,
     .headerBox {
         display: grid;
-        grid-template-columns: repeat(2, auto); /* Ensures equal spacing */
+        grid-template-columns: repeat(2, auto);
+        /* Ensures equal spacing */
         gap: 16px;
-       align-items: stretch;
+        align-items: stretch;
     }
-    
+
     .box-col {
         min-width: 48%;
         padding: 10px;
     }
-    .header-boxes .box-col:first-child{
+
+    .header-boxes .box-col:first-child {
         margin-top: -2px;
     }
-    .header-boxes .box-col:not(:first-child){
+
+    .header-boxes .box-col:not(:first-child) {
         margin-top: -2px;
     }
-    .headerBox .box-col:not(:first-child){
+
+    .headerBox .box-col:not(:first-child) {
         margin-top: -2px;
     }
-    .headerBox .box-col:first-child{
+
+    .headerBox .box-col:first-child {
         margin-top: 14px;
     }
+
     .image-slider a {
         top: 8%;
         padding: 5vh 1vw;
@@ -571,18 +580,21 @@ footer {
     .header-boxes,
     .headerBox {
         display: grid;
-        grid-template-columns: repeat(1, auto); /* Ensures equal spacing */
+        grid-template-columns: repeat(1, auto);
+        /* Ensures equal spacing */
         gap: 16px;
-       align-items: stretch;
+        align-items: stretch;
     }
+
     .box-col {
         min-width: 48%;
         padding: 10px;
     }
-    .header-boxes .box-col:first-child{
+
+    .header-boxes .box-col:first-child {
         margin-top: 100px;
     }
- 
+
     .nav-bottom {
         font-size: 14px;
         gap: 14px;
@@ -617,7 +629,8 @@ footer {
         width: 30px;
         margin-top: -13px;
     }
-    .cart:hover{
+
+    .cart:hover {
         border: none;
     }
 
@@ -626,7 +639,8 @@ footer {
         padding: 4vh 1vw;
         font-size: 16px;
     }
-    footer{
+
+    footer {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -635,7 +649,7 @@ footer {
 }
 
 @media only screen and (max-width: 360px) {
-    .header-boxes .box-col:first-child{
-        margin-top: 100px;
+    .header-boxes .box-col:first-child {
+        margin-top: 180px;
     }
-  }
+}
