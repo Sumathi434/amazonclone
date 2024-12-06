@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="CSS/SignIn.css" />
+    <link rel="stylesheet" href="CSS/SignUp.css" />
+    <script src="Formvalidation.js"></script>
+  </head>
+  <body>
+    <div class="containerSignIn">
+      <div class="logo">
+       <a href="/index.html"> <img src="assets/amazon_logo_dark.png" alt="" /></a>
+      </div>
+      <div class="signInForm">
+        <div class="formSection">
+          <h2>Create Account</h2>
+          <form>
+            <label>Your name</label>
+            <input
+              type="text"
+              id="fname"
+              placeholder="First and last name"
+            />
+            <p id="text" class="error">Please enter name</p> 
+            <label>Mobile number</label>
+            <div class="codes">
+              <select id="countryCode" name="countryCode" required>
+                <option value="+91" selected>IN +91</option>
+                <option value="+1">+1 (USA)</option>
+                <option value="+44">+44 (UK)</option>
+                <option value="+81">+81 (Japan)</option>
+                <option value="+61">+61 (Australia)</option>
+                <option value="+86">+86 (China)</option>
+              </select>
+              <input type="text" placeholder="Mobile number" id="mobileinput"/>
+            </div>
+              <p id="mobilenumber" class="error">Please mobile number</p>
+            <label for="">Password</label>
+            <input type="password" placeholder="At least 6 characters" id="passwordinput"/>
+            <p id="password" class="error">Please enter password</p>
+          </form>
+          <p class="verify">
+            To verify your number, we will send you a text message with a
+            temporary code. Message and data rates may apply.
+          </p>
+          <button onclick="Uservalid()" class="verifyButton">Verify mobile number</button>
+          <hr />
+          <p class="buying">Buying for work?</p>
+          <p class="shop"><a href="#">Create a free business account</a></p>
+        </div>
+        <p class="account">
+          Already have an account? <span><a href="#">Sign in</a></span>
+        </p>
+        <p class="Conditionsrules">
+          By creating an account or logging in, you agree to <br />Amazon’s
+          <span><a href="#">Conditions of Use</a></span> and
+          <span><a href="#">Privacy Policy</a></span>
+        </p>
+      </div>
+    </div>
+    <div class="footerSection">
+      <div class="footer1">
+        <p><a href="#">Conditions of Use </a></p>
+        <p><a href="#"> Privacy Notice </a></p>
+        <p><a href="#">Help</a></p>
+      </div>
+      <div class="footer2">
+        <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+      </div>
+    </div>
+  
+  </body>
+</html>

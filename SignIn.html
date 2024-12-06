@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn</title>
+    <link rel="stylesheet" href="CSS/SignIn.css" />
+  </head>
+  <body>
+    <div class="containerSignIn">
+      <div class="logo">
+       <a href="/index.html"><img src="assets/amazon_logo_dark.png" alt="" /></a>
+      </div>
+      <div class="signInForm">
+        <div class="formSection">
+          <h2>Sign in</h2>
+          <form onsubmit="signIn(event)">
+            <label>Email or mobile phone number</label>
+            <input type="text" id="fname"/>
+            <p class="error" id="errorfield">Please Enter Name</p>
+            <button type="submit">Continue</button>
+          </form>
+          <p class="Conditions">
+            By continuing, you agree to Amazon's
+            <span><a href="#">Conditions of Use</a> and </span>
+            <span><a href="#"> Privacy Notice</a></span>
+          </p>
+          <p class="helpline"> &#9656 <a href="#">Need Help ?</a></p>
+          <hr />
+          <p class="buying">Buying for work?</p>
+          <p class="shop"><a href="#">Shop on Amazon Business</a></p>
+        </div>
+    </div>
+    </div>
+    <div class="belowSection">
+        <hr>
+        <p>New to Amazon ?</p>
+      <button><a href="/SignUp.html">Create Your Amazon account</a></button>
+      </div>
+
+      <div class="footerSection">
+       <div class="footer1">
+        <p><a href="#">Conditions of Use </a></p>
+        <p><a href="#"> Privacy Notice </a></p>
+        <p><a href="#">Help</a></p>
+       </div>
+        <div class="footer2">
+            <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+        </div>
+      </div>
+      <script src="Formvalidation.js"></script>
+  </body>
+</html>

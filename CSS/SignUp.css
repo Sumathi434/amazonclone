@@ -1,0 +1,88 @@
+.signInForm{
+    border: 1px solid rgb(220, 216, 216);
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.formSection{
+    max-width:295px;
+    min-height: 290px;
+}
+.formSection h2{
+    margin-bottom: 15px;
+}
+
+.codes{
+    display: flex;
+    gap: 10px; 
+}
+.codes input{
+    width: 220px;
+}
+#countryCode{
+    width:70px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(224, 221, 221);
+}
+.Conditionsrules{
+    font-size: 12px;
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+.verify{
+    margin: 13px 0;
+    font-size: 13px;
+}
+.verifyButton{
+    border: none;
+    background: #FFE700;
+    font-size: 13px;
+    padding: 5px 75px;
+    cursor: pointer;
+}
+.verifyButton:hover{
+    background: #eec328;
+}
+.buying{
+    font-size: 13px;
+    font-weight: bold;
+   margin-top: 20px;
+}
+.shop{
+    font-size: 12px;
+    margin-top: 3px;
+}
+.shop a{
+text-decoration: none;
+color: #006BFF;
+}
+.shop a:hover{
+    color: rgb(211, 14, 14);
+    text-decoration: underline;
+}
+ hr{
+    margin-top: 30px;
+    border: none;
+    height: 1px;
+    background: lightgray;
+}
+.account{
+    font-size: 12px;
+   margin-top: 40px;
+}
+.error{
+    color: red;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.footerSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+}
