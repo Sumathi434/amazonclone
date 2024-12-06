@@ -351,12 +351,15 @@ footer{
 
 /* media query responsive */
 @media only screen and (max-width:1200px){
+    .product-display{
+        flex-wrap: wrap;
+    }
     .product-purchase{
         max-width: 70%;
-       height: 950px;
+        margin: 20px auto 10px;
     }
 }
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:900px){
     .product-display{
         flex-wrap: wrap;
     }
@@ -380,3 +383,11 @@ footer{
         margin: 20px auto 10px;
     }
 }
+
+
+@media only screen and (max-width: 360px) {
+    .product-title{
+        font-size: 15px;
+    }
+  }
+

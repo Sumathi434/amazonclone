@@ -617,6 +617,9 @@ footer {
         width: 30px;
         margin-top: -13px;
     }
+    .cart:hover{
+        border: none;
+    }
 
     .image-slider a {
         top: 8%;
@@ -630,3 +633,9 @@ footer {
         font-size: 12px;
     }
 }
+
+@media only screen and (max-width: 360px) {
+    .header-boxes .box-col:first-child{
+        margin-top: 100px;
+    }
+  }

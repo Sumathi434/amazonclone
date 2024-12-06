@@ -139,11 +139,13 @@ footer{
 
 
 /* media query responsive */
-
 @media only screen and (max-width: 900px){
     .cart-container{
         flex-wrap: wrap;
         font-size: 15px;
+    }
+    .cart-right button{
+        font-size: 12px;
     }
 }
 
@@ -156,8 +158,8 @@ footer{
         padding: 24px 0;
     }
     .product-cart-list img{
-       max-width: 150px;
-       height: 150px;
+       max-width: 140px;
+       height: 190px;
     }
     .cartDetails-right{
         flex-wrap: wrap;
@@ -166,4 +168,44 @@ footer{
     .cart-right{
         min-width: 93%;
     }
+
+    .cart-right button{
+        font-size: 12px;
+    }
 }
+
+@media only screen and (max-width: 500px){
+    .cart-right{
+        min-width: 93%;
+    }
+    .cart-left{
+        min-width: 45%;
+    }
+    .product-cart-list{
+        display: block;
+    }
+    .cart-right button{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .cart-right button{
+        font-size: 13px;
+        padding: 4px 50px;
+    }
+    .cart-left{
+        min-width: 90%;
+    }
+    .cart-right{
+        max-height: 400px;
+       width: 70%;
+       margin: 13px;
+    }
+    .product-cart-list img{
+       margin:  0 40px;
+       max-width: 160px;
+       height: 200px;
+
+     }
+  }
